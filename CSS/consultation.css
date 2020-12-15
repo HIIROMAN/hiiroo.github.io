@@ -1,0 +1,211 @@
+@import url(https://fonts.googleapis.com/css2?family=PT+Serif&display=swap);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "PT Serif", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+.header, .header__block-logo, .header__logo-p, .menu, .menu__list, .section1__block-img, .section1__block-table, .section2__block-img, .section2__block-table, .section2__block-links {
+  display: flex;
+}
+
+.container, .header, .section1, .section1__main-block, .section2, .section2__main-block {
+  width: 100%;
+}
+
+.section1, .section2 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.header {
+  justify-content: space-around;
+  background-color: black;
+  position: fixed;
+  z-index: 999;
+}
+
+.header__logo {
+  height: 75px;
+}
+
+.header__logo-p {
+  align-items: center;
+}
+
+.header__logo-link-second {
+  color: orangered;
+  font-size: 24px;
+}
+
+.header__logo-span {
+  color: #ffab0e;
+}
+
+.menu {
+  align-items: center;
+}
+
+.menu__item {
+  padding-left: 30px;
+}
+
+.menu__link {
+  color: white;
+  padding: 4px 10px;
+  transition: color .3s linear;
+}
+
+.menu__link:hover {
+  color: #ffab0e;
+}
+
+.section1 {
+  background-image: url(../img/Sections-bgimages/Consultation/section1-2bgimg.jpg);
+  padding-top: 90px;
+  padding-bottom: 11px;
+}
+
+.section1__main-block {
+  background-color: rgba(255, 245, 238, 0.5);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.section1__block-img {
+  justify-content: center;
+}
+
+.section1__img {
+  height: 150px;
+}
+
+.section1__block-table {
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.section1__table {
+  border-collapse: collapse;
+  background-color: #76c1df;
+}
+
+.section1__table th {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.section1__table a {
+  color: brown;
+  transition: color .2s linear;
+}
+
+.section1__table a:hover {
+  color: blue;
+}
+
+.section2 {
+  background-image: url(../img/Sections-bgimages/Consultation/section2-bgimg.jpg);
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+.section2__main-block {
+  background-color: rgba(255, 245, 238, 0.5);
+  padding-top: 15px;
+}
+
+.section2__block-img {
+  justify-content: center;
+}
+
+.section2__img {
+  height: 150px;
+}
+
+.section2__block-table {
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.section2__table {
+  border-collapse: collapse;
+  background-color: #6868ff;
+}
+
+.section2__table th {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.section2__table a {
+  color: #055805;
+  transition: color .2s linear;
+}
+
+.section2__table a:hover {
+  color: blue;
+}
+
+.section2__p {
+  padding-top: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.section2__block-links {
+  margin: 0 auto;
+  padding-top: 15px;
+  width: 40%;
+  justify-content: space-evenly;
+}
+
+.section2__p-confidentiality {
+  padding-top: 25px;
+  font-size: 17px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.fa-telegram, .fa-viber {
+  color: #1755ff;
+  font-size: 45px;
+}
+
+.fa-instagram-square {
+  font-size: 48px;
+  color: #e61f47;
+}
+
+.fa-viber {
+  color: indigo;
+}
+
+.fa-telegram:hover {
+  color: black;
+}
+
+.fa-instagram-square:hover {
+  color: brown;
+}
+
+.fa-viber:hover {
+  color: #7d0a88;
+}
+/*# sourceMappingURL=consultation.css.map */

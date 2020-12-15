@@ -1,0 +1,228 @@
+@import url(https://fonts.googleapis.com/css2?family=PT+Serif&display=swap);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "PT Serif", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+.header, .header__block-logo, .header__logo-p, .menu, .menu__list, .section1__block-icon, .section1__block-text-second, .section1__block-services-img, .section2__block-services-img-first, .section2 .section2__block-services-img-second, .section2__block-btn {
+  display: flex;
+}
+
+.container, .header, .section1, .section1__main-block, .section1__block-icon, .section2, .section2__main-block {
+  width: 100%;
+}
+
+.section1, .section2 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.header {
+  justify-content: space-around;
+  background-color: black;
+  position: fixed;
+  z-index: 999;
+}
+
+.header__logo {
+  height: 75px;
+}
+
+.header__logo-p {
+  align-items: center;
+}
+
+.header__logo-link-second {
+  color: orangered;
+  font-size: 24px;
+}
+
+.header__logo-span {
+  color: #ffab0e;
+}
+
+.menu {
+  align-items: center;
+}
+
+.menu__item {
+  padding-left: 30px;
+}
+
+.menu__link {
+  color: white;
+  padding: 4px 10px;
+  transition: color .3s linear;
+}
+
+.menu__link:hover {
+  color: #ffab0e;
+}
+
+.section1 {
+  padding-top: 90px;
+  padding-bottom: 13.5px;
+  background-image: url(../img/Sections-bgimages/Main/section1-bgimg.jpg);
+}
+
+.section1__main-block {
+  background-color: rgba(255, 245, 238, 0.5);
+}
+
+.section1__block-icon {
+  justify-content: center;
+  position: relative;
+}
+
+.section1__span-first {
+  position: relative;
+  top: 50px;
+  right: 24px;
+  color: #ff7b00;
+}
+
+.section1__span-second {
+  color: yellow;
+}
+
+.section1__p-first {
+  font-size: 25px;
+  padding-top: 50px;
+  padding-right: 25px;
+  padding-left: 25px;
+  color: black;
+}
+
+.section1__h2-first {
+  text-align: center;
+  padding-top: 5px;
+  font-size: 30px;
+}
+
+.section1__block-text-second {
+  justify-content: center;
+  padding-top: 5px;
+}
+
+.section1__block-text-second-h2-container {
+  padding-right: 45px;
+}
+
+.section1__block-text-second-h2 {
+  border-bottom: 2px solid black;
+}
+
+.section1__block-services-img {
+  justify-content: center;
+}
+
+.section1__block-services-img-container:first-child {
+  padding-top: 15px;
+}
+
+.section1__img {
+  height: 190px;
+}
+
+.section1__img_different-height_190px {
+  height: 160px;
+  padding-right: 75px;
+}
+
+.section1__img_different-padding_25px {
+  padding-right: 25px;
+}
+
+.section1__img_different-padding_10px {
+  padding-left: 10px;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+.section2 {
+  padding-top: 13px;
+  background-image: url(../img/Sections-bgimages/Main/section2-bgimg.jpg);
+  padding-bottom: 15px;
+}
+
+.section2__main-block {
+  background-color: rgba(255, 245, 238, 0.5);
+}
+
+.section2__h2-first, .section2 .section2__h2-second {
+  font-size: 30px;
+  text-align: center;
+}
+
+.section2__block-services-img-first, .section2 .section2__block-services-img-second {
+  justify-content: space-between;
+}
+
+.section2__block-services-img-first {
+  padding-top: 15px;
+}
+
+.section2__img {
+  height: 200px;
+}
+
+.section2__block-btn {
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.section2__button {
+  display: block;
+  font-size: 26px;
+  color: black;
+  padding: 13px 35px;
+  background-color: #ff5a1e;
+  box-shadow: 3px 3px 0px grey, -3px -3px 0px grey, 4px -3px 0px grey, -4px 3px 0px grey;
+  border-radius: 10px;
+  transition-property: background-color, color;
+  transition-duration: .3s;
+  transition-timing-function: linear;
+  position: relative;
+}
+
+.section2__button:before {
+  content: "";
+  border: 3px solid #ffb151;
+  position: absolute;
+  top: 6px;
+  /* right: 13.3px; */
+  padding: 27px 170px;
+  left: 0;
+  border-radius: 10px;
+}
+
+.section2__button:hover {
+  background-color: black;
+  color: white;
+}
+
+.section2__p-confidentiality {
+  padding-top: 25px;
+  font-size: 17px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+/*# sourceMappingURL=main.css.map */

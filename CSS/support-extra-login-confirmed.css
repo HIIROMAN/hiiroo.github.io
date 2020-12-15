@@ -1,0 +1,152 @@
+@import url(https://fonts.googleapis.com/css2?family=PT+Serif&display=swap);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "PT Serif", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+.header, .header__block-logo, .header__logo-p, .menu, .menu__list, .section1__main-block-img, .section1__btn {
+  display: flex;
+}
+
+.container, .header, .section1, .section1__main-block {
+  width: 100%;
+}
+
+.section1 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.header {
+  justify-content: space-around;
+  background-color: black;
+  position: fixed;
+  z-index: 999;
+}
+
+.header__logo {
+  height: 75px;
+}
+
+.header__logo-p {
+  align-items: center;
+}
+
+.header__logo-link-second {
+  color: orangered;
+  font-size: 24px;
+}
+
+.header__logo-span {
+  color: #ffab0e;
+}
+
+.menu {
+  align-items: center;
+}
+
+.menu__item {
+  padding-left: 30px;
+}
+
+.menu__link {
+  color: white;
+  padding: 4px 10px;
+  transition: color .3s linear;
+}
+
+.menu__link:hover {
+  color: #ffab0e;
+}
+
+.section1 {
+  padding-top: 90px;
+  background-image: url(../img/Sections-bgimages/Account/section1-bgimg.jpg);
+  padding-bottom: 14.5px;
+}
+
+.section1__main-block {
+  background-color: rgba(255, 245, 238, 0.5);
+  padding-bottom: 11px;
+}
+
+.section1__main-block-img {
+  justify-content: center;
+  padding-top: 5px;
+}
+
+.section1__img {
+  height: 200px;
+}
+
+.section1__p {
+  font-size: 21px;
+  text-align: center;
+  position: relative;
+  top: -55px;
+}
+
+.section1__btn {
+  justify-content: center;
+  position: relative;
+  top: -35px;
+}
+
+.section1__button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #ffab0e;
+  border: 1px solid black;
+  font-size: 16px;
+  color: black;
+  transition-property: color, background-color;
+  transition-timing-function: linear;
+  transition-duration: .3s;
+}
+
+.section1__button:hover {
+  color: white;
+  background-color: black;
+}
+
+.section1__p-confidentiality {
+  padding-top: 300px;
+  font-size: 17px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+  top: -65px;
+}
+
+@media screen and (max-width: 1367px) {
+  .section1 {
+    padding-bottom: 28px;
+  }
+}
+
+@media screen and (max-width: 1326px) {
+  .section1 {
+    padding-bottom: 148px;
+  }
+}
+/*# sourceMappingURL=support-extra-login-confirmed.css.map */

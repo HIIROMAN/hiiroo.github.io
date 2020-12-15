@@ -1,0 +1,775 @@
+@import url(https://fonts.googleapis.com/css2?family=PT+Serif&display=swap);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "PT Serif", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+.header, .header__block-logo, .header__logo-p, .menu, .menu__list, .section1__main-cars, .section2__main-cars, .section3__main-cars, .section4__main-cars, .section5__main-cars, .section6__main-cars, .section7__main-cars, .section8__main-cars, .section9__main-cars, .section10__main-cars, .section1__middle, .section2__middle, .section3__middle, .section4__middle, .section5__middle, .section6__middle, .section7__middle, .section8__middle, .section9__middle, .section10__middle, .section1__block-btn, .section2__block-btn, .section3__block-btn, .section4__block-btn, .section5__block-btn, .section6__block-btn, .section7__block-btn, .section8__block-btn, .section9__block-btn, .section10__block-btn, .section1__block-img, .section1__block-check, .section2__block-img, .section2__block-check, .section3__block-img, .section3__block-check, .section4__block-img, .section4__block-check, .section5__block-img, .section5__block-check, .section6__block-img, .section6__block-check, .section7__block-img, .section7__block-check, .section8__block-img, .section8__block-check, .section9__block-img, .section9__block-check, .section10__block-img, .section10__block-check {
+  display: flex;
+}
+
+.container, .header, .section1__main-block, .section2__main-block, .section3__main-block, .section4__main-block, .section5__main-block, .section6__main-block, .section7__main-block, .section8__main-block, .section9__main-block, .section10__main-block, .section1__main-cars, .section2__main-cars, .section3__main-cars, .section4__main-cars, .section5__main-cars, .section6__main-cars, .section7__main-cars, .section8__main-cars, .section9__main-cars, .section10__main-cars, .section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8, .section9, .section10 {
+  width: 100%;
+}
+
+.section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8, .section9, .section10 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.section1__block-cars-header, .section2__block-cars-header, .section3__block-cars-header, .section4__block-cars-header, .section5__block-cars-header, .section6__block-cars-header, .section7__block-cars-header, .section8__block-cars-header, .section9__block-cars-header, .section10__block-cars-header {
+  font-size: 20px;
+  color: #212121;
+  font-weight: bold;
+  line-height: 2.15;
+}
+
+.section1__list, .section2__list, .section3__list, .section4__list, .section5__list, .section6__list, .section7__list, .section8__list, .section9__list, .section10__list {
+  font-size: 16px;
+  color: white;
+  line-height: 1.429;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.header {
+  justify-content: space-around;
+  background-color: black;
+  position: fixed;
+  z-index: 999;
+}
+
+.header__logo {
+  height: 75px;
+}
+
+.header__logo-p {
+  align-items: center;
+}
+
+.header__logo-link-second {
+  color: orangered;
+  font-size: 24px;
+}
+
+.header__logo-span {
+  color: #ffab0e;
+}
+
+.menu {
+  align-items: center;
+}
+
+.menu__item {
+  padding-left: 30px;
+}
+
+.menu__link {
+  color: white;
+  padding: 4px 10px;
+  transition: color .3s linear;
+}
+
+.menu__link:hover {
+  color: #ffab0e;
+}
+
+.section1__main-block, .section2__main-block, .section3__main-block, .section4__main-block, .section5__main-block, .section6__main-block, .section7__main-block, .section8__main-block, .section9__main-block, .section10__main-block {
+  background-color: rgba(255, 245, 238, 0.5);
+  height: 650px;
+  padding-top: 5px;
+}
+
+.section1__main-cars, .section2__main-cars, .section3__main-cars, .section4__main-cars, .section5__main-cars, .section6__main-cars, .section7__main-cars, .section8__main-cars, .section9__main-cars, .section10__main-cars {
+  padding-top: 9px;
+  justify-content: space-around;
+}
+
+.section1__block-cars-header, .section2__block-cars-header, .section3__block-cars-header, .section4__block-cars-header, .section5__block-cars-header, .section6__block-cars-header, .section7__block-cars-header, .section8__block-cars-header, .section9__block-cars-header, .section10__block-cars-header {
+  width: 100%;
+  background-color: #333333;
+  color: white;
+  line-height: 1.2;
+  text-align: center;
+  padding: 12px 0px;
+  transition: color .2s linear;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.section1__block-cars-footer, .section2__block-cars-footer, .section3__block-cars-footer, .section4__block-cars-footer, .section5__block-cars-footer, .section6__block-cars-footer, .section7__block-cars-footer, .section8__block-cars-footer, .section9__block-cars-footer, .section10__block-cars-footer {
+  padding: 2.5px 0px;
+  background-color: rgba(255, 68, 0, 0.8);
+  transition: padding .2s linear;
+}
+
+.section1__footer-p, .section2__footer-p, .section3__footer-p, .section4__footer-p, .section5__footer-p, .section6__footer-p, .section7__footer-p, .section8__footer-p, .section9__footer-p, .section10__footer-p {
+  display: none;
+  font-size: 16px;
+  color: white;
+  line-height: 1.714;
+  text-align: center;
+}
+
+.section1__middle, .section2__middle, .section3__middle, .section4__middle, .section5__middle, .section6__middle, .section7__middle, .section8__middle, .section9__middle, .section10__middle {
+  width: 100%;
+  background-color: #333333;
+  justify-content: center;
+}
+
+.section1__list, .section2__list, .section3__list, .section4__list, .section5__list, .section6__list, .section7__list, .section8__list, .section9__list, .section10__list {
+  background-color: #333333;
+  border-bottom: 1px solid white;
+  padding: 7px 0px;
+  line-height: 1.714;
+  text-align: center;
+}
+
+.section1__checkbox, .section2__checkbox, .section3__checkbox, .section4__checkbox, .section5__checkbox, .section6__checkbox, .section7__checkbox, .section8__checkbox, .section9__checkbox, .section10__checkbox {
+  padding-top: 5px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.section1__block-btn, .section2__block-btn, .section3__block-btn, .section4__block-btn, .section5__block-btn, .section6__block-btn, .section7__block-btn, .section8__block-btn, .section9__block-btn, .section10__block-btn {
+  padding-top: 10px;
+  justify-content: center;
+}
+
+.section1__submit, .section2__submit, .section3__submit, .section4__submit, .section5__submit, .section6__submit, .section7__submit, .section8__submit, .section9__submit, .section10__submit {
+  background-color: #ffab0e;
+  padding: 12px 35px;
+  font-size: 16px;
+  border: 1px solid black;
+  outline: none;
+  cursor: pointer;
+  transition: box-shadow .4s linear;
+}
+
+.section1 {
+  padding-top: 90px;
+  background-image: url(../img/Sections-bgimages/Order/Section1-bgimg.jpg);
+  height: 754.5px;
+}
+
+.section1__main-block {
+  padding-top: 0px;
+}
+
+.section1__block-img {
+  justify-content: center;
+}
+
+.section1__img {
+  height: 65px;
+}
+
+.section1__block-cars {
+  width: 30%;
+  cursor: pointer;
+}
+
+.section1__block-cars:hover .section1__block-cars-header {
+  color: #ffab0e;
+}
+
+.section1__block-cars:hover .section1__block-cars-footer {
+  padding: 6px 0px;
+}
+
+.section1__block-cars:hover .section1__footer-p {
+  display: block;
+}
+
+.section1__block-cars-middle {
+  padding-top: 1px;
+}
+
+.section1__middle-img {
+  height: 120px;
+}
+
+.section1__list:last-child {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.section1__span {
+  vertical-align: super;
+  font-size: 11px;
+}
+
+.section1__form {
+  padding-top: 10px;
+}
+
+.section1__block-check {
+  justify-content: space-around;
+}
+
+.section1__submit:hover {
+  box-shadow: inset 200px 0px 0px rgba(255, 68, 0, 0.8);
+}
+
+.section2, .section3, .section4, .section5, .section6, .section7, .section8, .section9, .section10 {
+  height: 677px;
+  padding-top: 13px;
+}
+
+.section2 {
+  background-image: url(../img/Sections-bgimages/Order/Section2-bgimg.jpg);
+}
+
+.section2__block-img {
+  justify-content: center;
+}
+
+.section2__img {
+  height: 65px;
+}
+
+.section2__block-cars {
+  width: 30%;
+  cursor: pointer;
+}
+
+.section2__block-cars:hover .section2__block-cars-header {
+  color: #ffab0e;
+}
+
+.section2__block-cars:hover .section2__block-cars-footer {
+  padding: 6px 0px;
+}
+
+.section2__block-cars:hover .section2__footer-p {
+  display: block;
+}
+
+.section2__block-cars-middle {
+  padding-top: 1px;
+}
+
+.section2__middle-img {
+  height: 120px;
+}
+
+.section2__list:last-child {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.section2__span {
+  vertical-align: super;
+  font-size: 11px;
+}
+
+.section2__form {
+  padding-top: 10px;
+}
+
+.section2__block-check {
+  justify-content: space-around;
+}
+
+.section2__submit:hover {
+  box-shadow: inset 200px 0px 0px rgba(255, 68, 0, 0.8);
+}
+
+.section3 {
+  background-image: url(../img/Sections-bgimages/Order/Section3-bgimg.jpg);
+}
+
+.section3__block-img {
+  justify-content: center;
+}
+
+.section3__img {
+  height: 65px;
+}
+
+.section3__block-cars {
+  width: 30%;
+  cursor: pointer;
+}
+
+.section3__block-cars:hover .section3__block-cars-header {
+  color: #ffab0e;
+}
+
+.section3__block-cars:hover .section3__block-cars-footer {
+  padding: 6px 0px;
+}
+
+.section3__block-cars:hover .section3__footer-p {
+  display: block;
+}
+
+.section3__block-cars-middle {
+  padding-top: 1px;
+}
+
+.section3__middle-img {
+  height: 120px;
+}
+
+.section3__list:last-child {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.section3__span {
+  vertical-align: super;
+  font-size: 11px;
+}
+
+.section3__form {
+  padding-top: 10px;
+}
+
+.section3__block-check {
+  justify-content: space-around;
+}
+
+.section3__submit:hover {
+  box-shadow: inset 200px 0px 0px rgba(255, 68, 0, 0.8);
+}
+
+.section4 {
+  background-image: url(../img/Sections-bgimages/Order/Section4-bgimg.jpg);
+}
+
+.section4__block-img {
+  justify-content: center;
+}
+
+.section4__img {
+  height: 65px;
+}
+
+.section4__block-cars {
+  width: 30%;
+  cursor: pointer;
+}
+
+.section4__block-cars:hover .section4__block-cars-header {
+  color: #ffab0e;
+}
+
+.section4__block-cars:hover .section4__block-cars-footer {
+  padding: 6px 0px;
+}
+
+.section4__block-cars:hover .section4__footer-p {
+  display: block;
+}
+
+.section4__block-cars-middle {
+  padding-top: 1px;
+}
+
+.section4__middle-img {
+  height: 120px;
+}
+
+.section4__list:last-child {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.section4__span {
+  vertical-align: super;
+  font-size: 11px;
+}
+
+.section4__form {
+  padding-top: 10px;
+}
+
+.section4__block-check {
+  justify-content: space-around;
+}
+
+.section4__submit:hover {
+  box-shadow: inset 200px 0px 0px rgba(255, 68, 0, 0.8);
+}
+
+.section5 {
+  background-image: url(../img/Sections-bgimages/Order/Section5-bgimg.jpg);
+}
+
+.section5__block-img {
+  justify-content: center;
+}
+
+.section5__img {
+  height: 65px;
+}
+
+.section5__block-cars {
+  width: 30%;
+  cursor: pointer;
+}
+
+.section5__block-cars:hover .section5__block-cars-header {
+  color: #ffab0e;
+}
+
+.section5__block-cars:hover .section5__block-cars-footer {
+  padding: 6px 0px;
+}
+
+.section5__block-cars:hover .section5__footer-p {
+  display: block;
+}
+
+.section5__block-cars-middle {
+  padding-top: 1px;
+}
+
+.section5__middle-img {
+  height: 120px;
+}
+
+.section5__list:last-child {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.section5__span {
+  vertical-align: super;
+  font-size: 11px;
+}
+
+.section5__form {
+  padding-top: 10px;
+}
+
+.section5__block-check {
+  justify-content: space-around;
+}
+
+.section5__submit:hover {
+  box-shadow: inset 200px 0px 0px rgba(255, 68, 0, 0.8);
+}
+
+.section6 {
+  background-image: url(../img/Sections-bgimages/Order/Section6-bgimg.jpg);
+}
+
+.section6__block-img {
+  justify-content: center;
+}
+
+.section6__img {
+  height: 65px;
+}
+
+.section6__block-cars {
+  width: 30%;
+  cursor: pointer;
+}
+
+.section6__block-cars:hover .section6__block-cars-header {
+  color: #ffab0e;
+}
+
+.section6__block-cars:hover .section6__block-cars-footer {
+  padding: 6px 0px;
+}
+
+.section6__block-cars:hover .section6__footer-p {
+  display: block;
+}
+
+.section6__block-cars-middle {
+  padding-top: 1px;
+}
+
+.section6__middle-img {
+  height: 120px;
+}
+
+.section6__list:last-child {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.section6__span {
+  vertical-align: super;
+  font-size: 11px;
+}
+
+.section6__form {
+  padding-top: 10px;
+}
+
+.section6__block-check {
+  justify-content: space-around;
+}
+
+.section6__submit:hover {
+  box-shadow: inset 200px 0px 0px rgba(255, 68, 0, 0.8);
+}
+
+.section7 {
+  background-image: url(../img/Sections-bgimages/Order/Section7-bgimg.jpg);
+}
+
+.section7__block-img {
+  justify-content: center;
+}
+
+.section7__img {
+  height: 65px;
+}
+
+.section7__block-cars {
+  width: 30%;
+  cursor: pointer;
+}
+
+.section7__block-cars:hover .section7__block-cars-header {
+  color: #ffab0e;
+}
+
+.section7__block-cars:hover .section7__block-cars-footer {
+  padding: 6px 0px;
+}
+
+.section7__block-cars:hover .section7__footer-p {
+  display: block;
+}
+
+.section7__block-cars-middle {
+  padding-top: 1px;
+}
+
+.section7__middle-img {
+  height: 120px;
+}
+
+.section7__list:last-child {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.section7__span {
+  vertical-align: super;
+  font-size: 11px;
+}
+
+.section7__form {
+  padding-top: 10px;
+}
+
+.section7__block-check {
+  justify-content: space-around;
+}
+
+.section7__submit:hover {
+  box-shadow: inset 200px 0px 0px rgba(255, 68, 0, 0.8);
+}
+
+.section8 {
+  background-image: url(../img/Sections-bgimages/Order/Section8-bgimg.jpg);
+}
+
+.section8__block-img {
+  justify-content: center;
+}
+
+.section8__img {
+  height: 65px;
+}
+
+.section8__block-cars {
+  width: 30%;
+  cursor: pointer;
+}
+
+.section8__block-cars:hover .section8__block-cars-header {
+  color: #ffab0e;
+}
+
+.section8__block-cars:hover .section8__block-cars-footer {
+  padding: 6px 0px;
+}
+
+.section8__block-cars:hover .section8__footer-p {
+  display: block;
+}
+
+.section8__block-cars-middle {
+  padding-top: 1px;
+}
+
+.section8__middle-img {
+  height: 120px;
+}
+
+.section8__list:last-child {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.section8__span {
+  vertical-align: super;
+  font-size: 11px;
+}
+
+.section8__form {
+  padding-top: 10px;
+}
+
+.section8__block-check {
+  justify-content: space-around;
+}
+
+.section8__submit:hover {
+  box-shadow: inset 200px 0px 0px rgba(255, 68, 0, 0.8);
+}
+
+.section9 {
+  background-image: url(../img/Sections-bgimages/Order/Section9-bgimg.png);
+}
+
+.section9__block-img {
+  justify-content: center;
+}
+
+.section9__img {
+  height: 65px;
+}
+
+.section9__block-cars {
+  width: 30%;
+  cursor: pointer;
+}
+
+.section9__block-cars:hover .section9__block-cars-header {
+  color: #ffab0e;
+}
+
+.section9__block-cars:hover .section9__block-cars-footer {
+  padding: 6px 0px;
+}
+
+.section9__block-cars:hover .section9__footer-p {
+  display: block;
+}
+
+.section9__block-cars-middle {
+  padding-top: 1px;
+}
+
+.section9__middle-img {
+  height: 120px;
+}
+
+.section9__list:last-child {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.section9__span {
+  vertical-align: super;
+  font-size: 11px;
+}
+
+.section9__form {
+  padding-top: 10px;
+}
+
+.section9__block-check {
+  justify-content: space-around;
+}
+
+.section9__submit:hover {
+  box-shadow: inset 200px 0px 0px rgba(255, 68, 0, 0.8);
+}
+
+.section10 {
+  height: 720px;
+  background-image: url(../img/Sections-bgimages/Order/Section10-bgimg.jpg);
+}
+
+.section10__main-block {
+  height: 695px;
+}
+
+.section10__block-img {
+  justify-content: center;
+}
+
+.section10__img {
+  height: 65px;
+}
+
+.section10__block-cars {
+  width: 30%;
+  cursor: pointer;
+}
+
+.section10__block-cars:hover .section10__block-cars-header {
+  color: #ffab0e;
+}
+
+.section10__block-cars:hover .section10__block-cars-footer {
+  padding: 6px 0px;
+}
+
+.section10__block-cars:hover .section10__footer-p {
+  display: block;
+}
+
+.section10__block-cars-middle {
+  padding-top: 1px;
+}
+
+.section10__middle-img {
+  height: 120px;
+}
+
+.section10__list:last-child {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.section10__span {
+  vertical-align: super;
+  font-size: 11px;
+}
+
+.section10__form {
+  padding-top: 10px;
+}
+
+.section10__block-check {
+  justify-content: space-around;
+}
+
+.section10__submit:hover {
+  box-shadow: inset 200px 0px 0px rgba(255, 68, 0, 0.8);
+}
+
+.section10__p-confidentiality {
+  padding-top: 20px;
+  font-size: 17px;
+  text-align: center;
+}
+/*# sourceMappingURL=order.css.map */

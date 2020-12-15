@@ -1,0 +1,202 @@
+@import url(https://fonts.googleapis.com/css2?family=PT+Serif&display=swap);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "PT Serif", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+.header, .header__block-logo, .header__logo-p, .menu, .menu__list, .section1__form-block, .section1__stay-in {
+  display: flex;
+}
+
+.container, .header, .section1, .section1__main-block, .section1__form {
+  width: 100%;
+}
+
+.section1 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-top: 55px;
+}
+
+.header {
+  justify-content: space-around;
+  background-color: black;
+  position: fixed;
+  z-index: 999;
+}
+
+.header__logo {
+  height: 75px;
+}
+
+.header__logo-p {
+  align-items: center;
+}
+
+.header__logo-link-second {
+  color: orangered;
+  font-size: 24px;
+}
+
+.header__logo-span {
+  color: #ffab0e;
+}
+
+.menu {
+  align-items: center;
+}
+
+.menu__item {
+  padding-left: 30px;
+}
+
+.menu__link {
+  color: white;
+  padding: 4px 10px;
+  transition: color .3s linear;
+}
+
+.menu__link:hover {
+  color: #ffab0e;
+}
+
+.section1 {
+  padding-top: 35px;
+  background-image: url(../img/Sections-bgimages/Account/section1-bgimg.jpg);
+  padding-bottom: 12.5px;
+}
+
+.section1__main-block {
+  background-color: rgba(255, 245, 238, 0.5);
+  padding-top: 45px;
+  padding-bottom: 10px;
+}
+
+.section1__form-block {
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.section1__input-container {
+  width: 29.2%;
+}
+
+.section1__input-container:nth-child(2) {
+  padding-top: 5px;
+}
+
+.section1__input {
+  padding: 1.7px;
+  padding-left: 10px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  transition: color .2s linear;
+  background-color: transparent;
+}
+
+.section1__input::placeholder {
+  color: black;
+}
+
+.section1__input:focus::placeholder {
+  color: orangered;
+}
+
+.section1__stay-in {
+  border: 1px solid black;
+  padding: 6.5px 45px;
+  background-color: pink;
+}
+
+.section1__stay-in-container {
+  padding-top: 5px;
+}
+
+.section1__checkbox {
+  width: 20px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.section1__p-first {
+  padding-top: 1.5px;
+  padding-left: 3px;
+}
+
+.section1__block-submit {
+  padding-top: 5px;
+}
+
+.section1__submit {
+  font-size: 20px;
+  padding: 5px 136.5px;
+  border: 1px solid black;
+  outline: none;
+  background-color: #ffab0e;
+  cursor: pointer;
+  transition-property: background-color, color;
+  transition-duration: .3s;
+  transition-timing-function: linear;
+}
+
+.section1__submit:hover {
+  background-color: black;
+  color: white;
+}
+
+.section1 .section1__link, .section1 .section1__link-second {
+  color: black;
+  padding-top: 5px;
+  transition: color .3s linear;
+}
+
+.section1__link:hover {
+  color: red;
+}
+
+.section1__link-second:hover {
+  color: red;
+}
+
+.section1__p-confidentiality {
+  padding-top: 330px;
+  font-size: 17px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1367px) {
+  .section1 {
+    padding-bottom: 27px;
+  }
+}
+
+@media screen and (max-width: 1326px) {
+  .section1 {
+    padding-bottom: 147px;
+  }
+}
+/*# sourceMappingURL=account.css.map */
